@@ -45,22 +45,6 @@ export default class Resume extends Component {
                 <SoftwareAndTools />
               </div>
             </div>
-            <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-12">
-                <Languages />
-              </div>
-              <div className="col-lg-8 col-md-8 col-sm-12">
-                <InterpersonalSkills />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-12">
-                <PersonalData />
-              </div>
-              <div className="col-lg-8 col-sm-12 col-md-8">
-                <Notes /> 
-              </div>
-            </div>
           </div>
           <div className="row">
             <div className="col-12">

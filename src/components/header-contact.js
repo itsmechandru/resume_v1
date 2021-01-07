@@ -6,15 +6,15 @@ export default class HeaderContact extends Component {
       <ul className="header-contact-ul">
         <li>
           <i className="fa fa-globe-asia"></i>
-          <span className="header-contact-text">BTM Layout, Bengaluru, Karnataka - 560029</span>
+          <span className="header-contact-text">Trichy, TamilNadu - 620102</span>
         </li>
         <li>
           <i className="fas fa-envelope"></i>
-          <span className="header-contact-text">sreedevpadmakumar@gmail.com</span>
+          <span className="header-contact-text">chandruanju92@gmail.com</span>
         </li>
         <li>
           <i className="fas fa-address-card"></i>
-          <span className="header-contact-text">+91-9600928275</span>
+          <span className="header-contact-text">+91-8438318184</span>
         </li>
       </ul>
     )
