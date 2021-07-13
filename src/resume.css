@@ -91,7 +91,7 @@ header h4.designation {
 }
 
 header ul.header-contact-ul {
-  margin-left: 50px;
+  margin-left: 75px;
 }
 
 .tagline {
@@ -103,6 +103,7 @@ header ul.header-contact-ul {
   color: white;
   padding: 5px;
   background: #1d3557;
+  -webkit-print-color-adjust: exact;
 }
 
 header ul.header-contact-ul li  {
@@ -350,4 +351,9 @@ ul.interpersonal-skills li {
 span.programming-skill {
   width: 45%;
   float: left;
+}
+.project-name {
+  font-family: jetbrains_bold;
+  font-size: 20px;
+  padding: 5px 0px;
 }

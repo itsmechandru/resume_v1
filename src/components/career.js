@@ -14,7 +14,17 @@ class CareerCompany extends Component {
               <span className="career-company-location">{ this.props.companyLocation}</span>
             </h3>
             <h4 className="career-company-designation">{ this.props.companyDesignation }</h4>
-            <p className="career-company-summary">{ this.props.companySummary }</p>
+            {
+              this.props.companySummary && this.props.companySummary.length > 0 && this.props.companySummary.map((e) => {
+                return (
+                  <>
+                    <h4 className={'project-name'}>{e.title}</h4>
+                    <p className='career-company-summary'>{e.description}</p>
+                  </>
+                )
+              })
+            }
+            {/*<p className="career-company-summary">{ this.props.companySummary }</p>*/}
             <div className="company-tech-stack">
               <span className="company-tech-stack-descriptor">Tech Stack: </span>{this.props.companyStack}
             </div>
@@ -32,7 +42,12 @@ export default class Career extends Component {
       {
         "name": "Harsha InfoTech",
         "location": "Trichy, IN.",
-        "summary": "Worked on creation and maintenance of an API service web application for college application processing. Architected the data model for the system to efficiently integrate third party APIs & enable high speed data retrieval. Worked with the mobile application development team to deliver specialized APIs for integration with the core application.",
+        "summary": [
+          {
+            title: 'Microsites',
+            description: "Worked on creation and maintenance of an API service web application for college application processing. Architected the data model for the system to efficiently integrate third party APIs & enable high speed data retrieval. Worked with the mobile application development team to deliver specialized APIs for integration with the core application."
+          }
+        ],
         "stack": "PHP, MySql, CodeIgniter, Javascript, jQuery, CSS",
         "start_date": "Sep, 2015",
         "end_date": "Oct, 2016",
@@ -41,8 +56,13 @@ export default class Career extends Component {
       {
         "name": "HousingMan",
         "location": "Bengaluru, IN.",
-        "summary": "Worked with various teams to design & develop data heavy API systems & Web Applications. Developed Highly efficient data visualization & data processing platforms and content management systems. Worked on building highly modular CRM tools, organizational tracking tools, customer data collection engines and more.",
-        "stack": "Ruby, Ruby on Rails, Postgresql, Javascript, ReactJs, jQuery, PHP, Nginx, Html, Css, Node Js",
+        "summary": [
+          {
+            title: 'Own product',
+            description: "Worked with various teams to design & develop data heavy API systems & Web Applications. Developed Highly efficient data visualization & data processing platforms and content management systems. Worked on building highly modular CRM tools, organizational tracking tools, customer data collection engines and more."
+          }
+        ],
+        "stack": "Ruby, Ruby on Rails, Postgresql, Javascript, ReactJs, jQuery, PHP, Nginx, HTML, CSS, Node Js",
         "start_date": "Nov, 2017",
         "end_date": "Nov, 2019",
         "designation": "Software Engineer"
@@ -50,8 +70,18 @@ export default class Career extends Component {
       {
         "name": "Techmango Technology services",
         "location": "Madurai, IN.",
-        "summary": "MOHAP - "+
-          "UI/UX modernization of Health Service Portal of Ministry Of Health and Prevention, UAE. This portal enables digitalized application processing System of their Insurance platform. It is a React.js application with .NET Middleware as an API Server.\n",
+        "summary": [
+          {
+            title: 'Health Service Portal',
+            description: "UI/UX modernization of Health Service Portal of Ministry Of Health and Prevention, UAE. This portal enables digitalized application processing System of their Insurance platform. It is a React.js application with .NET Middleware as an API Server.\n"
+          },
+          {
+            title: 'E-learning support for various Learning Management Systems(LMS):',
+            description: "They wants to integrate LMSes with Cisco Webex for student community involvement, learning,\n" +
+              "attendance, and student success in web application including like Online meetings, Video Conferencing\n" +
+              "Course recordings and publishings Adding training, events related to the students."
+          }
+        ],
         "stack": "React JS, Node Js, Ruby, Ruby on Rails, Postgresql, Javascript, jQuery, Ngrok, HTML, CSS",
         "start_date": "Dec, 2019",
         "end_date": "Present",

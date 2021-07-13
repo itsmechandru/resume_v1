@@ -21,8 +21,8 @@ export default class Resume extends Component {
       <React.Fragment>
         <div className="wrapper">
           <Header />
-          <Tagline /> 
           <div className="container-fluid">
+            <Tagline />
             <Introduction />
             <div className="row">
               <div className="col-lg-5 col-md-5 col-sm-12">
