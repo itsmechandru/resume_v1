@@ -72,6 +72,10 @@ export default class Career extends Component {
         "location": "Madurai, IN.",
         "summary": [
           {
+            title: 'Logistics Management system',
+            description: "Logistics managers are responsible for overseeing the overall supply chain management, the most common responsibilities that are highlighted in the resume include – organizing and monitoring supply and distribution of goods, managing entire order cycle, managing logistics, warehouse, transportation, and customer service, liaising with manufacturers, retailers, and suppliers.\n"
+          },
+          {
             title: 'Health Service Portal',
             description: "UI/UX modernization of Health Service Portal of Ministry Of Health and Prevention, UAE. This portal enables digitalized application processing System of their Insurance platform. It is a React.js application with .NET Middleware as an API Server.\n"
           },
@@ -84,7 +88,7 @@ export default class Career extends Component {
         ],
         "stack": "React JS, Node Js, Ruby, Ruby on Rails, Postgresql, Javascript, jQuery, Ngrok, HTML, CSS",
         "start_date": "Dec, 2019",
-        "end_date": "Present",
+        "end_date": "Feb, 2022",
         "designation": "Software Engineer"
       }
     ]
