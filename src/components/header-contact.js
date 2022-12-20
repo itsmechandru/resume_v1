@@ -14,7 +14,7 @@ export default class HeaderContact extends Component {
         </li>
         <li>
           <i className="fas fa-address-card"></i>
-          <span className="header-contact-text">+91-8438318184</span>
+          <span className="header-contact-text">+91-8610890523</span>
         </li>
       </ul>
     )

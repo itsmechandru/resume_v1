@@ -90,6 +90,20 @@ export default class Career extends Component {
         "start_date": "Dec, 2019",
         "end_date": "Feb, 2022",
         "designation": "Software Engineer"
+      },
+      {
+        "name": "Working as Freelancer",
+        "location": "Trichy, IN.",
+        "summary": [
+          {
+            title: 'Largest wholesale nurseries services',
+            description: "Canada's largest wholesale nurseries serving customers throughout country and north U.S states. (React with .NET framework)\n"
+          }
+        ],
+        "stack": "React JS, Node Js, Javascript, Ngrok, HTML, CSS",
+        "start_date": "March, 2022",
+        "end_date": "present",
+        "designation": "Freelancer"
       }
     ]
     const companyRenderList = [];
