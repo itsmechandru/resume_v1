@@ -92,7 +92,7 @@ export default class Career extends Component {
         "designation": "Software Engineer"
       },
       {
-        "name": "Working as Freelancer",
+        "name": "Working as Consultant",
         "location": "Trichy, IN.",
         "summary": [
           {
